@@ -60,3 +60,21 @@ body {
     min-height: 300px;
 }
 
+.mycursive {
+    font-family: Snell Roundhand;
+    font-size: 1.75em;
+}
+
+.mycursive-btn {
+    font-family: Snell Roundhand;
+    font-size: .95em;
+}
+
+.classy-color {
+    background-color: #FFFDD0;
+}
+
+::placeholder {
+    font-family: Snell Roundhand;
+    font-size: 1.5em;
+}
