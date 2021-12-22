@@ -78,3 +78,9 @@ body {
     font-family: Snell Roundhand;
     font-size: 1.5em;
 }
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
