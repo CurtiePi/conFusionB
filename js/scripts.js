@@ -1,6 +1,6 @@
-$(document).ready(() => {
+$(document).ready(function() {
     $('#mycarousel').carousel({ interval: 2000 });
-    $('#carouselButton').click(() => {
+    $('#carouselButton').click(function() {
         if ($('#carouselButton').children('span').hasClass('fa-pause')){
             $('#mycarousel').carousel('pause');
             $('#carouselButton').children('span').removeClass('fa-pause')
@@ -12,16 +12,16 @@ $(document).ready(() => {
             $('#carouselButton').children('span').addClass('fa-pause')
         }
     });
-    $('#loginModalLink').click(() => {
+    $('#loginModalLink').click(function() {
        $('#loginModal').modal('show');
     });
-    $('#dismissLoginModal').click(() => {
+    $('#dismissLoginModal').click(function() {
        $('#loginModal').modal('hide');
     });
-    $('#reserveModalBtn').click(() => {
+    $('#reserveModalBtn').click(function() {
        $('#reserveModal').modal('show');
     });
-    $('#dismissReserveModal').click(() => {
+    $('#dismissReserveModal').click(function() {
        $('#reserveModal').modal('hide');
     });
 });
