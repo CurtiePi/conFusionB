@@ -71,28 +71,48 @@ body {
     }
 }
 
+.modal {
+    .modal-header {
+        background: $background-dark;
+        color: floralwhite;
+
+        .close {
+            color: floralwhite;
+        }
+    }
+
+    .modal-body {
+        margin-top: 0px;
+        background-color: $background-pale;
+    }
+}
+
+.classy {
+/*    background-color: $background-classy; Though not used want to keep around */
+    font-family: $cursive-font;
+
+    .model-title {
+        font-size: 2.25em;
+        font-style: bold;
+    }
+
+    label {
+        font-size: 1.5em;
+    }
+
+    .btn {
+        font-size: .95em;
+    }
+
+    ::placeholder {
+        font-family: $cursive-font;
+        font-size: 1.5em;
+    }
+
+}
+
 #carouselButton{
     right: 0px;
     position: absolute;
     bottom: 0px;
 }
-
-.mycursive {
-    font-family: $cursive-font;
-    font-size: 1.75em;
-}
-
-.mycursive-btn {
-    font-family: $cursive-font;
-    font-size: .95em;
-}
-
-.classy-color {
-    background-color: $background-classy;
-}
-
-::placeholder {
-    font-family: $cursive-font;
-    font-size: 1.5em;
-}
-

@@ -47,22 +47,31 @@ body {
       left: 0;
       min-height: 300px; }
 
+.modal .modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal .modal-header .close {
+    color: floralwhite; }
+
+.modal .modal-body {
+  margin-top: 0px;
+  background-color: #D1C4E9; }
+
+.classy {
+  /*    background-color: $background-classy; Though not used want to keep around */
+  font-family: Snell Roundhand; }
+  .classy .model-title {
+    font-size: 2.25em;
+    font-style: bold; }
+  .classy label {
+    font-size: 1.5em; }
+  .classy .btn {
+    font-size: .95em; }
+  .classy ::placeholder {
+    font-family: Snell Roundhand;
+    font-size: 1.5em; }
+
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px; }
-
-.mycursive {
-  font-family: Snell Roundhand;
-  font-size: 1.75em; }
-
-.mycursive-btn {
-  font-family: Snell Roundhand;
-  font-size: .95em; }
-
-.classy-color {
-  background-color: #FFFDD0; }
-
-::placeholder {
-  font-family: Snell Roundhand;
-  font-size: 1.5em; }
